@@ -48,7 +48,7 @@ $(document).ready(function () {
         }
       },
       {
-        src  : 'img/flowers/photo-2.jpg',
+        src  : 'img/flowers/photo-6.jpg',
         opts : {
           caption : '2 caption',
         }

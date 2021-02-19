@@ -366,6 +366,21 @@ body {
     letter-spacing: 0.12px;
 }
 
+.modal {
+    display: none;
+}
+.modal-title {
+    color: #292929;
+}
+.modal-button {
+    width: 100%;
+}
+.modal-input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+}
 
 @media (max-width: 768px) {
     .header {

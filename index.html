@@ -29,7 +29,7 @@
                 <div class="col-lg-3 col-md-5 header-contacts">
                     <a href="tel:+78006548745" class="header-phone">8 (800) 654-87-45</a>
                     <span class="header-info">Звонок по России бесплатный</span>
-                    <a href="#" class="callback">Заказать звонок</a>
+                    <a data-fancybox data-src="#modal" href="javascript:;" class="callback">Заказать звонок</a>
                 </div>
                 <!-- /.col-lg-3 -->
             </div>
@@ -80,7 +80,7 @@
                 </div>
                 <!-- ./swiper-container -->
                <span class="hero-cta">Закажите эксклюзивный букет со скидкой 10%</span> 
-               <a href="#" class="button">Заказать букет</a>
+               <a data-fancybox data-src="#modal" href="javascript:;" class="button">Заказать букет</a>
         </div>
         <!-- /.container -->
     </section>
@@ -543,6 +543,14 @@
         </section>
 
     </footer>
+
+    <div class="modal" id="modal">
+        <h2 class="modal-title">Закажите обратный звонок</h2>
+        <form action="#">
+            <input type="tel" class="modal-input" placeholder="+7 (___)-___-___-___">
+            <button class="button modal-button">Перезвонить мне</button>
+        </form>
+    </div>
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
